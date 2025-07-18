@@ -1,0 +1,12 @@
+'''class --- structure
+instance - blue print
+syntax:
+class userdefinedname:
+    stmt1
+    ......
+    .......
+     stmtn'''
+class abc:
+    value=int(input(""))
+obj1=abc()
+print(obj1.value)

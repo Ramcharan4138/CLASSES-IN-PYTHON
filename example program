@@ -1,0 +1,12 @@
+'''code to find and print the factorial of a given number using a class called Math and register the given number in a constructor to calculate return the value by passing to main function'''
+class Math:
+    def __init__(self,num):
+        self.num=num
+    def fact(self):
+        f=1
+        for i in range(1,self.num+1):
+            f*=i
+        return f
+number=int(input("Enter the number:"))
+m=Math(number)
+print("Factorial:",m.fact())

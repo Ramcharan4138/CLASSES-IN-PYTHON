@@ -1,0 +1,10 @@
+class student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def hi(self):
+        print(f"HELLO,I AM {self.name} AND I AM {self.age} YEARS OLD")
+s=student('RAM CHARAN',21)
+s.hi()
+s1=student('RAJU',20)
+s1.hi()

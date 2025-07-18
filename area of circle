@@ -1,0 +1,14 @@
+'''code to calculate the area of a circle by importing pi from math and create a class for circle with constructor,where raidus as an argument
+Calculate and return the value to the object'''
+import math
+class circle:
+    def __init__(self,radius):
+        self.radius=radius
+    def area(self):
+        return math.pi*self.radius**2
+    def circumference(self):
+        return 2*math.pi*self.radius
+r=int(input("Enter the radius:"))
+c=circle(r)
+print("Area of a circle:",c.area())
+print("Circumference of a circle:",c.circumference())
