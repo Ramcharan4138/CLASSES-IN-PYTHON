@@ -1,0 +1,10 @@
+'''code to import the sqrt function and calculate the value by creating a class SquareRoot and define a function for finding the root. return the value to the main program'''
+import math
+class SquareRoot:
+    def __init__(self,num):
+        self.num=num
+    def find_root(self):
+        return math.sqrt(self.num)
+num=float(input("Enter the number"))
+s=SquareRoot(num)
+print(f"SquareRoot:{s.find_root():.2f}")
